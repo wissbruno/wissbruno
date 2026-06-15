@@ -69,9 +69,8 @@ Gosto de resolver problemas reais com tecnologia pratica. Nao so escrever codigo
 ## Atualmente
 
 - Estagiario em Dados e Automacao na **Suzano S.A.**
-- Estudando **Ciencia da Computacao** na Universidade Anhembi Morumbi
+- Estudando **Sistemas de Informacao** na Universidade Anhembi Morumbi
 - Aprofundando conhecimentos em **Engenharia de Dados** e **Desenvolvimento Back-End**
-- Aberto a oportunidades em **Desenvolvimento de Software**, **Dados** ou **Automacao com IA**
 
 ---
 
