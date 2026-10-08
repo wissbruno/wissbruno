@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#0f1630"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#34d399"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.5 0; 0.5 0; -0.5 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="blobA"><stop offset="0" stop-color="#22d3ee" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="blobB"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="blobC"><stop offset="0" stop-color="#10b981" stop-opacity=".4"/><stop offset="1" stop-color="#10b981" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#ffffff" stroke-opacity=".05"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="6s" repeatCount="indefinite"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="340" rx="22"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; }
+      .rise { animation: rise 1s cubic-bezier(.2,.8,.2,1) both; }
+      .d1 { animation-delay: .15s } .d2 { animation-delay: .4s } .d3 { animation-delay: .65s } .d4 { animation-delay: .9s }
+      @keyframes rise { from { opacity: 0; transform: translateY(18px) } to { opacity: 1; transform: translateY(0) } }
+      .role { opacity: 0; animation: role 12s ease-in-out infinite both; }
+      .r2 { animation-delay: 3s } .r3 { animation-delay: 6s } .r4 { animation-delay: 9s }
+      @keyframes role {
+        0% { opacity: 0; transform: translateY(12px) }
+        4%, 21% { opacity: 1; transform: translateY(0) }
+        25%, 100% { opacity: 0; transform: translateY(-12px) }
+      }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+      .float { animation: float 6s ease-in-out infinite; }
+      .f2 { animation-delay: -2s } .f3 { animation-delay: -4s }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-10px) } }
+      .pulse { animation: pulse 2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes pulse { 0%,100% { opacity: .35; transform: scale(1) } 50% { opacity: 1; transform: scale(1.6) } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+
+    <!-- blobs de luz -->
+    <circle r="260" fill="url(#blobA)">
+      <animate attributeName="cx" values="980;1080;980" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="40;120;40" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="240" fill="url(#blobB)">
+      <animate attributeName="cx" values="760;860;760" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="330;250;330" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="200" fill="url(#blobC)">
+      <animate attributeName="cx" values="60;140;60" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="320;260;320" dur="10s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- linha de varredura -->
+    <rect x="-400" y="0" width="400" height="2" fill="url(#line)">
+      <animate attributeName="x" values="-400;1200" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1200" y="338" width="400" height="2" fill="url(#line)">
+      <animate attributeName="x" values="1200;-400" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="339" rx="21.5" stroke="#ffffff" stroke-opacity=".08"/>
+
+  <!-- texto -->
+  <g class="sans">
+    <g class="rise d1">
+      <rect x="64" y="56" width="214" height="30" rx="15" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".35"/>
+      <circle cx="84" cy="71" r="4" fill="#34d399" class="pulse"/>
+      <text x="98" y="76" font-size="14" fill="#a5f3fc" font-weight="600">Construindo com impacto</text>
+    </g>
+
+    <text x="62" y="160" font-size="76" font-weight="800" fill="url(#name)" letter-spacing="-1.5" class="rise d2">Bruno Wiss</text>
+
+    <g class="mono rise d3" font-size="24">
+      <text x="64" y="212" fill="#64748b">&gt;</text>
+      <g fill="#e2e8f0">
+        <text x="90" y="212" class="role">Engenharia de Dados<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+        <text x="90" y="212" class="role r2">Automação de Processos<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+        <text x="90" y="212" class="role r3">Full Stack · React + FastAPI<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+        <text x="90" y="212" class="role r4">IA Generativa Aplicada<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+      </g>
+    </g>
+
+    <g class="rise d4" font-size="15" fill="#94a3b8">
+      <text x="64" y="270">Estagiário de Dados &amp; Automação <tspan fill="#34d399" font-weight="600">@ Suzano S.A.</tspan></text>
+      <text x="64" y="296">Sistemas de Informação <tspan fill="#a78bfa" font-weight="600">@ Anhembi Morumbi</tspan>  ·  São Paulo, BR</text>
+    </g>
+  </g>
+
+  <!-- elementos flutuantes -->
+  <g class="mono">
+    <g class="float">
+      <rect x="860" y="70" width="250" height="64" rx="14" fill="#0b1222" fill-opacity=".85" stroke="#22d3ee" stroke-opacity=".35"/>
+      <text x="880" y="98" font-size="13" fill="#64748b">// processos manuais</text>
+      <text x="880" y="120" font-size="16" fill="#34d399" font-weight="700">-90% ↓</text>
+    </g>
+    <g class="float f2">
+      <rect x="780" y="160" width="230" height="64" rx="14" fill="#0b1222" fill-opacity=".85" stroke="#a78bfa" stroke-opacity=".35"/>
+      <text x="800" y="188" font-size="13" fill="#64748b">// projetos entregues</text>
+      <text x="800" y="210" font-size="16" fill="#a78bfa" font-weight="700">30+ em 11 meses</text>
+    </g>
+    <g class="float f3">
+      <rect x="900" y="248" width="220" height="56" rx="14" fill="#0b1222" fill-opacity=".85" stroke="#34d399" stroke-opacity=".35"/>
+      <text x="920" y="282" font-size="15" fill="#e2e8f0"><tspan fill="#22d3ee">import</tspan> impacto</text>
+    </g>
+  </g>
+</svg>

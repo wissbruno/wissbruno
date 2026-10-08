@@ -1,92 +1,89 @@
 <div align="center">
 
-# Bruno Wiss
+<img src="./assets/banner.svg" width="100%" alt="Bruno Wiss — Dados, Automação, Full Stack e IA"/>
 
-**Dados & Automação · Desenvolvimento Full Stack · IA Aplicada**
+<br/>
 
-Estagiário em Dados e Automação na Suzano S.A. · São Paulo, Brasil
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/wissbruno)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat\&logo=github\&logoColor=white)](https://github.com/wissbruno)
+<a href="https://linkedin.com/in/wissbruno"><img src="https://img.shields.io/badge/LinkedIn-wissbruno-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/wissbruno"><img src="https://img.shields.io/badge/GitHub-wissbruno-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=wissbruno&style=for-the-badge&color=22d3ee&label=VISITAS"/>
 
 </div>
 
----
+<br/>
 
-## Sobre mim
+## 👨‍💻 Sobre mim
 
-Sou estudante de **Sistemas de Informação** apaixonado por transformar processos complexos em soluções automatizadas e escaláveis.
+<img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami — Bruno Wiss, estudante de Sistemas de Informação e estagiário de Dados & Automação na Suzano"/>
 
-Atualmente atuo como **Estagiário em Dados e Automação na Suzano S.A.**, onde desenvolvo automações, aplicações internas e pipelines de dados para equipes de logística. Em 11 meses, contribuí para a entrega de **30+ projetos**, alcançando **reduções superiores a 90% em processos manuais** e criando soluções adotadas por **7 equipes diferentes**.
+<br/>
 
-Acredito que tecnologia gera valor quando resolve problemas reais. Meu foco não é apenas escrever código, mas construir soluções que gerem impacto e sejam utilizadas no dia a dia das pessoas.
+## ⚡ O que eu construo
 
----
+<img src="./assets/pipeline.svg" width="100%" alt="Fluxo: Fontes → Pipelines → APIs → Interfaces → IA Generativa"/>
 
-## Stack Principal
+- 🚚 **Automações corporativas** com Python e Power Automate para operações logísticas
+- 🌐 **Portais internos full stack** com React e FastAPI
+- 📊 **Pipelines de dados** para análise e apoio à tomada de decisão
+- 🤖 **Integrações com IA generativa** para otimizar processos internos
 
-### Linguagens
+<br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat\&logo=python\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat\&logo=javascript\&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat\&logo=typescript\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat\&logo=openjdk\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat\&logo=postgresql\&logoColor=white)
+## 📈 Números que importam
 
-### Front-end
+<img src="./assets/metrics.svg" width="100%" alt="30+ projetos em 11 meses, 90%+ menos processo manual, 7 equipes atendidas, 10+ tecnologias em produção"/>
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat\&logo=react\&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat\&logo=css3\&logoColor=white)
+<br/>
 
-### Back-end & APIs
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat\&logo=fastapi\&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat\&logo=node.js\&logoColor=white)
-
-### Automação & Low-Code
-
-![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat\&logo=microsoft\&logoColor=white)
-![Power Apps](https://img.shields.io/badge/Power_Apps-742774?style=flat\&logo=microsoft\&logoColor=white)
-![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=flat\&logo=microsoft\&logoColor=white)
-
-### Dados & IA
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat\&logo=pandas\&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat\&logo=openai\&logoColor=white)
-
----
-
-## O que estou construindo
-
-* Automações corporativas com Python e Power Automate para operações logísticas
-* Portais internos full stack utilizando React e FastAPI
-* Pipelines de dados para análise e suporte à tomada de decisão
-* Integrações com IA generativa para otimização de processos internos
-
----
-
-## Atualmente
-
-* Estagiário em Dados e Automação na **Suzano S.A.**
-* Graduando em **Sistemas de Informação** na Universidade Anhembi Morumbi
-* Aprofundando conhecimentos em **Engenharia de Dados**, **Back-end** e **Inteligência Artificial Aplicada**
-
----
-
-## Números que importam
-
-| Indicador                          | Resultado |
-| ---------------------------------- | --------- |
-| Projetos entregues em 11 meses     | 30+       |
-| Redução de processos manuais       | 90%+      |
-| Equipes atendidas internamente     | 7         |
-| Tecnologias utilizadas em produção | 10+       |
-
----
+## 🧰 Stack
 
 <div align="center">
 
-*"Não basta escrever código. É preciso construir soluções que gerem impacto real."*
+**Linguagens**<br/>
+<img src="https://skillicons.dev/icons?i=py,js,ts,java,postgres,rust&theme=dark" />
+
+**Front-end & Back-end**<br/>
+<img src="https://skillicons.dev/icons?i=react,html,css,fastapi,nodejs&theme=dark" />
+
+**Dados, IA & Low-Code**<br/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power_Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white"/>
+<img src="https://img.shields.io/badge/SharePoint-0078D4?style=for-the-badge&logo=microsoftsharepoint&logoColor=white"/>
+
+**Ferramentas**<br/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" />
 
 </div>
+
+<br/>
+
+## 🎯 Atualmente
+
+- 🔭 Aprofundando em **engenharia de dados**, **back-end** e **IA aplicada**
+- 🏭 Automatizando operações logísticas na **Suzano S.A.**
+- 🎓 Cursando **Sistemas de Informação** na Universidade Anhembi Morumbi
+
+<br/>
+
+## 📊 Atividade no GitHub
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=wissbruno&show_icons=true&hide_border=true&bg_color=0b0f19&title_color=22d3ee&icon_color=a78bfa&text_color=cbd5e1&rank_icon=github&locale=pt-br"/>
+<img height="170" src="https://streak-stats.demolab.com?user=wissbruno&hide_border=true&background=0b0f19&ring=22d3ee&fire=a78bfa&currStreakLabel=22d3ee&sideLabels=cbd5e1&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b&stroke=1e293b&locale=pt_BR"/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=wissbruno&bg_color=0b0f19&color=cbd5e1&line=22d3ee&point=a78bfa&area=true&area_color=22d3ee&hide_border=true&custom_title=Contribuições%20nos%20últimos%2031%20dias"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wissbruno/wissbruno/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wissbruno/wissbruno/output/snake.svg"/>
+  <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/wissbruno/wissbruno/output/snake-dark.svg"/>
+</picture>
+
+</div>
+
+<br/>
+
+<img src="./assets/footer.svg" width="100%" alt="Bora construir algo com impacto?"/>

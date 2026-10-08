@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" fill="none">
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="180" rx="22"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .glow { animation: glow 3s ease-in-out infinite; }
+      @keyframes glow { 0%,100% { opacity: .75 } 50% { opacity: 1 } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="180" fill="#070b14"/>
+    <!-- ondas: cada path tem 2 períodos (2400px) e desliza 1200px -->
+    <path d="M0 120 Q150 90 300 120 T600 120 T900 120 T1200 120 T1500 120 T1800 120 T2100 120 T2400 120 V180 H0Z" fill="url(#w1)" fill-opacity=".18">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 135 Q150 162 300 135 T600 135 T900 135 T1200 135 T1500 135 T1800 135 T2100 135 T2400 135 V180 H0Z" fill="#8b5cf6" fill-opacity=".22">
+      <animateTransform attributeName="transform" type="translate" from="-1200 0" to="0 0" dur="16s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 150 Q150 135 300 150 T600 150 T900 150 T1200 150 T1500 150 T1800 150 T2100 150 T2400 150 V180 H0Z" fill="#22d3ee" fill-opacity=".25">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="600" y="66" text-anchor="middle" class="sans glow" font-size="28" font-weight="800" fill="url(#w1)">Bora construir algo com impacto?</text>
+  <text x="600" y="96" text-anchor="middle" class="sans" font-size="15" fill="#94a3b8">Dados · Automação · Full Stack · IA — São Paulo, BR</text>
+</svg>
