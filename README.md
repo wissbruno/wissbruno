@@ -74,8 +74,6 @@
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=wissbruno&show_icons=true&hide_border=true&bg_color=0b0f19&title_color=22d3ee&icon_color=a78bfa&text_color=cbd5e1&rank_icon=github&locale=pt-br"/>
 <img height="170" src="https://streak-stats.demolab.com?user=wissbruno&hide_border=true&background=0b0f19&ring=22d3ee&fire=a78bfa&currStreakLabel=22d3ee&sideLabels=cbd5e1&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b&stroke=1e293b&locale=pt_BR"/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=wissbruno&bg_color=0b0f19&color=cbd5e1&line=22d3ee&point=a78bfa&area=true&area_color=22d3ee&hide_border=true&custom_title=Contribuições%20nos%20últimos%2031%20dias"/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wissbruno/wissbruno/output/snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wissbruno/wissbruno/output/snake.svg"/>
