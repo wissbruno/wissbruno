@@ -31,7 +31,7 @@
 
     <!-- 2 -->
     <text x="34" y="160" clip-path="url(#c3)"><tspan fill="#34d399">❯</tspan> <tspan fill="#e2e8f0">cat cargo.txt</tspan></text>
-    <text x="34" y="188" fill="#cbd5e1" opacity="0">Estagiário de <tspan fill="#22d3ee">Dados &amp; Automação</tspan> @ Suzano S.A.
+    <text x="34" y="188" fill="#cbd5e1" opacity="0">Analista de Logística Jr. — <tspan fill="#22d3ee">Torre de Controle · Dados &amp; Automação</tspan> @ Suzano
       <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.3s" fill="freeze"/></text>
 
     <!-- 3 -->

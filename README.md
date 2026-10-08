@@ -14,7 +14,7 @@
 
 ## 👨‍💻 Sobre mim
 
-<img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami — Bruno Wiss, estudante de Sistemas de Informação e estagiário de Dados & Automação na Suzano"/>
+<img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami — Bruno Wiss, estudante de Sistemas de Informação e Analista de Logística Jr. na Torre de Controle da Suzano"/>
 
 <br/>
 
@@ -51,19 +51,33 @@
 <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white"/>
 <img src="https://img.shields.io/badge/Power_Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white"/>
 <img src="https://img.shields.io/badge/SharePoint-0078D4?style=for-the-badge&logo=microsoftsharepoint&logoColor=white"/>
+<img src="https://img.shields.io/badge/SAP_S%2F4HANA-0FAAFF?style=for-the-badge&logo=sap&logoColor=white"/>
+<img src="https://img.shields.io/badge/Oracle_OTM-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
 
-**Ferramentas**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" />
+**Cloud & Ferramentas**<br/>
+<img src="https://skillicons.dev/icons?i=gcp,git,github,vscode&theme=dark" />
 
 </div>
+
+<br/>
+
+## 🛤️ Trajetória
+
+**🟢 Analista de Logística Jr. · Torre de Controle — Suzano S.A.** &nbsp;`ago/2026 → hoje`
+> Projetos de tecnologia que atravessam toda a operação de transporte da logística UNBC. Traduzo rotinas e dados operacionais em soluções automatizadas, com dados confiáveis, processos auditáveis e visibilidade de ponta a ponta, na interface entre operação e tecnologia (SAP S/4HANA, OTM, GCP, Power Platform, Python e agentes de IA). Também sou ponto de contato com transportadoras parceiras para mapear dores e desenhar soluções.
+
+**🔵 Estágio em Dados e Automação · Logística de Transportes — Suzano S.A.** &nbsp;`ago/2025 → ago/2026`
+> **30+ soluções** de automação (Power Automate, Power Apps, Python) substituindo planilhas manuais · **90%+ de redução** na execução de processos manuais · ferramentas adotadas por **7 equipes**: Operações, Logística Reversa, Pagamentos, Ocorrências, Customer, Comercial e Last Mile · pipelines de dados para visibilidade em tempo real · protótipo full stack para comunicação com fornecedores.
+
+**🎓 Sistemas de Informação — Universidade Anhembi Morumbi**
 
 <br/>
 
 ## 🎯 Atualmente
 
 - 🔭 Aprofundando em **engenharia de dados**, **back-end** e **IA aplicada**
-- 🏭 Automatizando operações logísticas na **Suzano S.A.**
-- 🎓 Cursando **Sistemas de Informação** na Universidade Anhembi Morumbi
+- 🤖 Construindo **agentes de IA** para a operação logística
+- ☁️ Evoluindo pipelines e automações em **GCP**
 
 <br/>
 

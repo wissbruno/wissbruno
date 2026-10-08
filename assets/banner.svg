@@ -88,14 +88,14 @@
       <text x="64" y="212" fill="#64748b">&gt;</text>
       <g fill="#e2e8f0">
         <text x="90" y="212" class="role">Engenharia de Dados<tspan class="cursor" fill="#22d3ee">_</tspan></text>
-        <text x="90" y="212" class="role r2">Automação de Processos<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+        <text x="90" y="212" class="role r2">Torre de Controle Logística<tspan class="cursor" fill="#22d3ee">_</tspan></text>
         <text x="90" y="212" class="role r3">Full Stack · React + FastAPI<tspan class="cursor" fill="#22d3ee">_</tspan></text>
-        <text x="90" y="212" class="role r4">IA Generativa Aplicada<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+        <text x="90" y="212" class="role r4">Agentes de IA · Automação<tspan class="cursor" fill="#22d3ee">_</tspan></text>
       </g>
     </g>
 
     <g class="rise d4" font-size="15" fill="#94a3b8">
-      <text x="64" y="270">Estagiário de Dados &amp; Automação <tspan fill="#34d399" font-weight="600">@ Suzano S.A.</tspan></text>
+      <text x="64" y="270">Analista de Logística Jr. · Torre de Controle <tspan fill="#34d399" font-weight="600">@ Suzano S.A.</tspan></text>
       <text x="64" y="296">Sistemas de Informação <tspan fill="#a78bfa" font-weight="600">@ Anhembi Morumbi</tspan>  ·  São Paulo, BR</text>
     </g>
   </g>
